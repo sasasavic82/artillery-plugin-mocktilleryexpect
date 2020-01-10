@@ -5,8 +5,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sasasavic82/artillery-plugin-mocktillery-expect.git"
-},
+    "url": "git+https://github.com/sasasavic82/artillery-plugin-mocktilleryexpect.git"
+  },
   "dependencies": {
     "chalk": "^2.3.2",
     "datadog-metrics": "^0.8.1",
@@ -29,7 +29,7 @@
   },
   "license": "SEE LICENSE IN LICENSE.txt",
   "main": "index.js",
-  "name": "artillery-plugin-mocktillery-expect",
+  "name": "artillery-plugin-mocktilleryexpect",
   "scripts": {
     "test": "bash test/run.sh"
   },

@@ -62,8 +62,8 @@ function ExpectationsPlugin(script, events) {
   ) {
     userContext.expectationsPlugin = {};
     userContext.expectationsPlugin.outputFormat =
-      script.config.plugins.mocktillery-expect.outputFormat || 'pretty';
-    if (script.config.plugins.mocktillery-expect.externalReporting) {
+      script.config.plugins.mocktilleryexpect.outputFormat || 'pretty';
+    if (script.config.plugins.mocktilleryexpect.externalReporting) {
       // Datadog-only right now
       userContext.expectationsPlugin.reporter = 'datadog';
       const reportingConfig = script.config.plugins.expect.externalReporting;
